@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="B&#224;i 1a"/>
+        <attribute name="authors" value="HH"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-05-08 05:57:11 CH"/>
+        <attribute name="created" value="SEg7VEhBTkgzNy04OUdHTklSOzIwMjQtMDItMjg7MDI6MDg6NDkgUE07MjQ0MQ=="/>
+        <attribute name="edited" value="SEg7VEhBTkgzNy04OUdHTklSOzIwMjQtMDItMjg7MDI6MzQ6NDAgUE07MTtISDtUSEFOSDM3LTg5R0dOSVI7MjAyNC0wMi0yODswMjoyNDowOSBQTTs1MDMz"/>
+        <attribute name="edited" value="SEg7VEhBTkgzNy04OUdHTklSOzIwMjQtMDItMjg7MDI6NTE6MTEgUE07MTsyNTM2"/>
+        <attribute name="edited" value="RGVsbDtERVNLVE9QLUVUUEEwS0c7MjAyNS0wMy0wNzswMTo0OToxMSBDSDsxOzI4Mjk="/>
+        <attribute name="edited" value="bmdvY3Q7Q0hPV01JTlo7MjAyNS0wNS0wODswNTo1NzoxMSBDSDsxOzI1Mzc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Thai Van Ngoc&quot;" newline="True"/>
+            <output expression="&quot;MSSV: 235752020710016&quot;" newline="True"/>
+            <declare name="area" type="Real" array="False" size=""/>
+            <declare name="radius" type="Integer" array="False" size=""/>
+            <output expression="&quot;Nh&#7853;p b&#225;n k&#237;nh h&#236;nh tr&#242;n&quot;" newline="True"/>
+            <input variable="radius"/>
+            <assign variable="area" expression="3.14*radius^2"/>
+            <output expression="&quot;The area is&quot; &amp; area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

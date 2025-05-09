@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="B&#224;i 1b"/>
+        <attribute name="authors" value="HH"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-05-08 05:59:39 CH"/>
+        <attribute name="created" value="SEg7VEhBTkgzNy04OUdHTklSOzIwMjQtMDItMjg7MDI6MjQ6MDkgUE07MjQzNQ=="/>
+        <attribute name="edited" value="SEg7VEhBTkgzNy04OUdHTklSOzIwMjQtMDItMjg7MDI6NDA6MzIgUE07MTtISDtUSEFOSDM3LTg5R0dOSVI7MjAyNC0wMi0yODswMjowODo0OSBQTTs1MDM3"/>
+        <attribute name="edited" value="SEg7VEhBTkgzNy04OUdHTklSOzIwMjQtMDItMjg7MDI6NTE6MjcgUE07MTsyNTQz"/>
+        <attribute name="edited" value="RGVsbDtERVNLVE9QLUVUUEEwS0c7MjAyNS0wMy0wNzswMTo0OTo0MyBDSDsxOzI4MzQ="/>
+        <attribute name="edited" value="bmdvY3Q7Q0hPV01JTlo7MjAyNS0wNS0wODswNTo1OTozOSBDSDsxOzI1NDk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Thai Van Ngoc&quot;" newline="True"/>
+            <output expression="&quot;MSSV: 235752020710016&quot;" newline="True"/>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <for variable="n" start="99" end="1" direction="dec" step="1">
+                <if expression="n==1">
+                    <then>
+                        <output expression="&quot;1 chai bia tr&#234;n t&#432;&#7901;ng&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <output expression="n &amp; &quot;Chai bia tr&#234;n t&#432;&#7901;ng&quot;" newline="True"/>
+                    </else>
+                </if>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

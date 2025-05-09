@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="B&#224;i 1e"/>
+        <attribute name="authors" value="HH"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-05-08 06:13:27 CH"/>
+        <attribute name="created" value="SEg7VEhBTkgzNy04OUdHTklSOzIwMjQtMDQtMDc7MDI6MzM6NDMgUE07MjQzMg=="/>
+        <attribute name="edited" value="SEg7VEhBTkgzNy04OUdHTklSOzIwMjQtMDQtMDc7MDI6MzQ6MDQgUE07MTtISDtUSEFOSDM3LTg5R0dOSVI7MjAyNC0wNC0wNzswMjoyNjoxOCBQTTs1MDMz"/>
+        <attribute name="edited" value="SEg7VEhBTkgzNy04OUdHTklSOzIwMjQtMDQtMDc7MDI6Mzg6MzIgUE07MTsyNTQz"/>
+        <attribute name="edited" value="RGVsbDtERVNLVE9QLUVUUEEwS0c7MjAyNS0wMy0wNzswMTo1MTowNCBDSDsxOzI4MjQ="/>
+        <attribute name="edited" value="bmdvY3Q7Q0hPV01JTlo7MjAyNS0wNS0wODswNjoxMzoyNyBDSDsxOzI1Mzc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Thai Van Ngoc&quot;" newline="True"/>
+            <output expression="&quot;MSSV: 235752020710016&quot;" newline="True"/>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <output expression="&quot;Nh&#7853;p n&quot;" newline="True"/>
+            <input variable="n"/>
+            <if expression="n==1">
+                <then>
+                    <output expression="&quot;n kh&#244;ng l&#224; s&#7889; nguy&#234;n t&#7889;&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="n&lt;4">
+                        <then>
+                            <output expression="&quot;n l&#224; s&#7889; nguy&#234;n t&#7889;&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <declare name="i" type="Integer" array="False" size=""/>
+                            <assign variable="i" expression="2"/>
+                            <while expression="n%i!=0">
+                                <assign variable="i" expression="i+1"/>
+                            </while>
+                            <if expression="i==n">
+                                <then>
+                                    <output expression="&quot;n l&#224; s&#7889; nguy&#234;n t&#7889;&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;n kh&#244;ng ph&#7843;i s&#7889; nguy&#234;n t&#7889;&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
